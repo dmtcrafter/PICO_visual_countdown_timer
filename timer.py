@@ -6,7 +6,6 @@ total_time = 10
 
 class LED(pin):
     ON = False
-    PIN_NUM = pin
 
     def __init__(self, pin):
         super().__init__()
